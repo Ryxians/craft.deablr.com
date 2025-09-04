@@ -15,7 +15,5 @@ services:
       USE_MEOWICE_FLAGS: "true"
       FORCE_GAMEMODE: "true"
       ENABLE_COMMAND_BLOCK: "true"
-      OPS_FILE: "./ops.txt"
-      WHITELIST_FILE: "./whitelist.txt"
     volumes:
       - "./mc-data:/data"
