@@ -15,5 +15,12 @@ services:
       USE_MEOWICE_FLAGS: "true"
       FORCE_GAMEMODE: "true"
       ENABLE_COMMAND_BLOCK: "true"
+      OPS: |-
+        Ryxian
+      ENABLE_WHITELIST: "true"
+      WHITELIST: |-
+        Ryxian
     volumes:
-      - "./mc-data:/data"
+      - "./mc-worlds/world:/data/world"
+      - "./mc-worlds/world_nether:/data/world_nether"
+      - "./mc-worlds/world_the_end:/data/world_the_end"
